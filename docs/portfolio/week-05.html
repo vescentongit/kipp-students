@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="id" xml:lang="id"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.31">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -43,10 +46,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-42db6082498c64b8158b8611e7fb4138.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e068420ea456326da06e1a0f8a236e46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -257,14 +260,16 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#kompetensi-target" id="toc-kompetensi-target" class="nav-link active" data-scroll-target="#kompetensi-target">Kompetensi target</a></li>
   <li><a href="#evidence-wajib" id="toc-evidence-wajib" class="nav-link" data-scroll-target="#evidence-wajib">Evidence wajib</a></li>
-  <li><a href="#konteks-performance" id="toc-konteks-performance" class="nav-link" data-scroll-target="#konteks-performance">Konteks performance</a></li>
+  <li><a href="#initial-assumption-dan-rencana-discovery" id="toc-initial-assumption-dan-rencana-discovery" class="nav-link" data-scroll-target="#initial-assumption-dan-rencana-discovery">Initial Assumption dan Rencana Discovery</a></li>
+  <li><a href="#potongan-transcript-dan-paraphrase" id="toc-potongan-transcript-dan-paraphrase" class="nav-link" data-scroll-target="#potongan-transcript-dan-paraphrase">Potongan Transcript dan Paraphrase</a></li>
+  <li><a href="#pembaruan-pembacaan-impact-dan-constraint" id="toc-pembaruan-pembacaan-impact-dan-constraint" class="nav-link" data-scroll-target="#pembaruan-pembacaan-impact-dan-constraint">Pembaruan Pembacaan, Impact, dan Constraint</a></li>
   <li><a href="#evidence" id="toc-evidence" class="nav-link" data-scroll-target="#evidence">Evidence</a></li>
-  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis komunikasi</a></li>
+  <li><a href="#analisis-komunikasi" id="toc-analisis-komunikasi" class="nav-link" data-scroll-target="#analisis-komunikasi">Analisis Komunikasi</a></li>
   <li><a href="#penggunaan-ai" id="toc-penggunaan-ai" class="nav-link" data-scroll-target="#penggunaan-ai">Penggunaan AI</a></li>
-  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</a></li>
+  <li><a href="#feedback-dan-tindak-lanjut" id="toc-feedback-dan-tindak-lanjut" class="nav-link" data-scroll-target="#feedback-dan-tindak-lanjut">Feedback dan Tindak Lanjut</a></li>
   <li><a href="#self-assessment" id="toc-self-assessment" class="nav-link" data-scroll-target="#self-assessment">Self-assessment</a>
   <ul class="collapse">
-  <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment dosen</a></li>
+  <li><a href="#assessment-dosen" id="toc-assessment-dosen" class="nav-link" data-scroll-target="#assessment-dosen">Assessment Dosen</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -325,116 +330,166 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="konteks-performance" class="level2">
-<h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
+<section id="initial-assumption-dan-rencana-discovery" class="level2">
+<h2 class="anchored" data-anchor-id="initial-assumption-dan-rencana-discovery">Initial Assumption dan Rencana Discovery</h2>
+<p><strong>Initial assumption sebelum interview:</strong> Saya berasumsi Google Student Ambassador (GSA) sudah menjalankan pendampingan akademis mendalam seperti bedah jurnal, metodologi riset, dan kolaborasi dengan dosen di kelas. Saya juga berasumsi solusi lomba BCC Google yang kami usulkan bernama Gemini Academic Fellows akan tumpang tindih dengan peran GSA.</p>
+<p><strong>Tujuan discovery:</strong> Memetakan apa yang sebenarnya dilakukan GSA sehari hari, siapa audiensnya, KPI-nya, batasannya di ranah akademis formal, persepsi mahasiswa, serta menguji apakah Gemini Academic Fellows feasible dan saling melengkapi atau justru overlap.</p>
+<p><strong>Interviewee:</strong> S.N.K., Google Student Ambassador aktif.</p>
+<p><strong>Pertanyaan discovery yang diajukan:</strong></p>
+<ol type="1">
+<li>Boleh cerita pengalaman selama jadi GSA, fokus utamanya bikin event promosi umum atau program akademis spesifik?</li>
+<li>Audiens utama GSA siapa dan bentuk acaranya seperti apa?</li>
+<li>Seberapa sering sesi GSA membahas hal teknis akademis mendalam seperti metodologi riset atau bedah jurnal?</li>
+<li>Metrik KPI GSA dinilai dari apa?</li>
+<li>Ada kendala saat mencoba masuk ke ranah akademis formal seperti kolaborasi dengan dosen atau pendampingan tugas?</li>
+<li>Mahasiswa melihat GSA sebagai ambassador promo atau tempat diskusi teknis AI untuk riset?</li>
+<li>Pernahkah GSA diundang dosen untuk mengisi sesi pembekalan di kelas?</li>
+<li>Jika ada program Gemini Academic Fellows yang rekrut Asdos dan Aslab untuk pendampingan riset 100 persen, apakah akan overlap dengan GSA?</li>
+<li>Jika GSA fokus Top of Funnel awareness dan Fellows fokus pendampingan mendalam, apakah bisa saling melengkapi?</li>
+</ol>
+</section>
+<section id="potongan-transcript-dan-paraphrase" class="level2">
+<h2 class="anchored" data-anchor-id="potongan-transcript-dan-paraphrase">Potongan Transcript dan Paraphrase</h2>
+<blockquote class="blockquote">
+<p><strong>Saya:</strong> “Boleh cerita sedikit tentang pengalaman kamu selama jadi GSA? Fokusnya lebih ke bikin event promosi umum atau ada program akademis spesifik?” <strong>S.N.K.:</strong> “Kebanyakan bikin konten di YouTube, Instagram, dan TikTok tentang produk Google terutama Gemini, karena setiap minggu pasti ada brief tema konten apa yang harus dibuat. Kalau bikin event promosi offline ga pernah walaupun di encourage dan bisa naikin rank.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Saya:</strong> “Seberapa sering sesi kalian membahas hal teknis akademis mendalam seperti metodologi riset atau bedah jurnal?” <strong>S.N.K.:</strong> “Setau gw jarang sih, ga fokus ke bahas gituan.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Saya:</strong> “Mahasiswa melihat GSA lebih sebagai ambassador promo atau tempat diskusi teknis?” <strong>S.N.K.:</strong> “Ambassador produk aja sih, jarang yang ngelihat sebagai tempat diskusi teknis.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Saya:</strong> “Kalau dirancang Gemini Academic Fellows yang khusus Asdos dan Aslab untuk pendampingan riset seperti Prompt Workbook per mata kuliah dan Klinik Bedah Jurnal, bakal overlap ga?” <strong>S.N.K.:</strong> “Engga sih aman aja.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Saya:</strong> “Kalau GSA tetap di Top of Funnel awareness dan Fellows di pendampingan mendalam, bisa saling melengkapi?” <strong>S.N.K.:</strong> “Saling melengkapi kok. Paling sarannya ada dorongan atau event yang melibatkan 2 peran ini secara langsung. Kalau engga juga gpp karena fokusnya beda juga.”</p>
+</blockquote>
+<p><strong>Paraphrase dan klarifikasi yang saya lakukan:</strong> Setelah jawaban tentang KPI referral dan event, saya memparafrase, “Jadi penilaian utama GSA itu klik referral, jumlah pendaftar event, dan impresi medsos, bukan depth pendampingan akademis?” S.N.K. membenarkan dan menambahkan ada top 10 best GSA per minggu meski KPI tidak sepenuhnya transparan.</p>
+</section>
+<section id="pembaruan-pembacaan-impact-dan-constraint" class="level2">
+<h2 class="anchored" data-anchor-id="pembaruan-pembacaan-impact-dan-constraint">Pembaruan Pembacaan, Impact, dan Constraint</h2>
+<p><strong>Initial assumption tidak sepenuhnya didukung.</strong> Evidence interview menunjukkan GSA bukan pendamping akademis. Peran aktual adalah content creator produk Google sesuai brief mingguan, audiens utama mahasiswa, bentuk acara bebas workshop atau booth atau talkshow namun jarang dilakukan offline, KPI berbasis referral dan impresi, dan jarang membahas riset mendalam.</p>
+<p><strong>Impact:</strong> Mahasiswa mempersepsikan GSA sebagai ambassador promo, bukan tempat diskusi teknis. Akibatnya kebutuhan pendampingan riset seperti Prompt Workbook dan bedah jurnal belum terlayani oleh peran GSA.</p>
+<p><strong>Constraint yang perlu dipertahankan:</strong> GSA terikat brief konten mingguan dari Google dan tidak memiliki mandat formal untuk masuk ke materi kuliah atau bimbingan tugas. S.N.K. menyatakan tidak ada kendala besar untuk masuk ke akademis, namun faktor pendorongnya adalah inisiatif mahasiswa yang kurang push promosi di kampus. Juga S.N.K. menilai GSA belum pernah diundang dosen untuk sesi kelas, jadi constraint adalah legitimasi akademis dan kapasitas waktu.</p>
+<p><strong>Shared problem statement yang dikonfirmasi S.N.K.:</strong></p>
+<blockquote class="blockquote">
+<p>“Mahasiswa membutuhkan pemisahan peran yang jelas antara GSA yang fokus pada awareness ekosistem Google melalui konten dan event besar Top of Funnel, dengan Gemini Academic Fellows yang fokus pada pendampingan akademis mendalam di kelas dan lab seperti Prompt Workbook kustom dan Klinik Bedah Jurnal, agar tidak tumpang tindih dan dapat saling melengkapi melalui event kolaboratif terstruktur.”</p>
+</blockquote>
+<p>S.N.K. mengonfirmasi pernyataan ini dengan jawaban “saling melengkapi kok” dan saran perlunya event yang melibatkan kedua peran jika memungkinkan, namun tetap aman jika berjalan terpisah karena fokus berbeda. Ini menjadi validasi bahwa solusi yang kami tawarkan feasible dan tidak overlap.</p>
 </section>
 <section id="evidence" class="level2">
 <h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
 <div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
+<p>Transcript lengkap 9 pertanyaan dan jawaban dari interview dengan S.N.K. via chat, serta catatan paraphrase KPI. Kontribusi saya adalah menyusun pertanyaan discovery, melakukan paraphrase untuk memastikan pemahaman, dan merumuskan shared problem statement yang kemudian dikonfirmasi interviewee.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/portfolio/week-05-evidence.png" class="img-fluid figure-img"></p>
+<figcaption>Transcript interview GSA S.N.K. tentang pemetaan peran dan feasibility Gemini Academic Fellows</figcaption>
+</figure>
+</div>
 </div>
 </section>
 <section id="analisis-komunikasi" class="level2">
-<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
+<h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis Komunikasi</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Elemen</th>
-<th>Evidence dan analisis</th>
+<th>Evidence dan Analisis</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Person dan character</td>
+<td>Saya sebagai interviewer dengan professional character discovery, S.N.K. sebagai GSA dengan pengalaman content creation. Keduanya diposisikan sebagai kolaborator untuk memetakan problem, bukan sebagai penilai.</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Objective dan state</td>
+<td>State awal berasumsi GSA sudah akademis dan akan overlap. State tujuan adalah mendapat kejelasan peran aktual dan validasi feasibility. Objective tercapai karena mendapat konfirmasi bahwa GSA promo dan Fellows pendampingan bisa komplementer.</td>
 </tr>
 <tr class="odd">
-<td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Repertoire dan language</td>
+<td>Repertoire berupa open question, paraphrase, dan confirmation. Language yang digunakan santai namun terstruktur, menyesuaikan konteks mahasiswa ke mahasiswa, tanpa jargon lomba yang berlebihan di awal.</td>
 </tr>
 <tr class="even">
-<td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Response dan adaptation</td>
+<td>Respons S.N.K. yang menyatakan jarang bahas riset dan hanya ambassador produk membuat saya menahan solusi dan menggali lebih dalam tentang KPI dan persepsi. Adaptasi berupa perubahan assumption dari overlap menjadi komplementer.</td>
 </tr>
 <tr class="odd">
-<td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Agreement dan action</td>
+<td>Agreement berupa shared problem statement yang dikonfirmasi S.N.K. Action selanjutnya adalah melanjutkan perancangan Gemini Academic Fellows dengan fokus di kelas dan lab, serta merancang opsi event kolaboratif GSA dan Fellows.</td>
 </tr>
 <tr class="even">
 <td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Relasi profesional terjaga dengan baik, interviewee merasa didengar dan memberi saran konstruktif. Memberi fondasi untuk follow up interview tambahan dengan dosen atau Asdos untuk validasi lanjutan.</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="penggunaan-ai" class="level2">
 <h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
-<ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
-</ul>
+<p>Menggunakan Opencode untuk merapikan transcript dan memberi label fact, interpretation, dan solution suggestion. Prompt berisi transcript asli dengan instruksi untuk tidak mengubah makna. Saya memeriksa ulang setiap label terhadap jawaban asli S.N.K. dan tidak memasukkan nama lengkap atau kontak pribadi. Bagian yang ditolak adalah ringkasan AI yang menyimpulkan GSA tidak efektif, karena evidence hanya menunjukkan fokus berbeda, bukan tidak efektif. Pembelajaran sebagai manusia adalah kemampuan membedakan problem dan solution sebelum proposing.</p>
 </section>
 <section id="feedback-dan-tindak-lanjut" class="level2">
-<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
+<h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan Tindak Lanjut</h2>
+<p><strong>Feedback yang diterima:</strong> S.N.K. memberi feedback bahwa struktur dua peran saling melengkapi dan menyarankan adanya event yang melibatkan keduanya secara langsung agar sinergi terlihat.</p>
+<p><strong>Adaptation atau replay:</strong> Saya merevisi problem statement awal yang menyebut “overlap” menjadi “pemisahan peran yang komplementer” setelah mendapat konfirmasi. Saya juga mengeluarkan pertanyaan yang leading tentang apakah GSA ingin jadi pendamping akademis.</p>
+<p><strong>Next practice:</strong> Melakukan dua interview tambahan dengan Asdos dan dosen untuk menguji constraint legitimasi di kelas, serta menanyakan current workaround mahasiswa dalam mendapatkan pendampingan riset sebelum menyebut solusi.</p>
 </section>
 <section id="self-assessment" class="level2">
 <h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
-<th style="text-align: right;">Skor 1–4</th>
-<th>Evidence singkat</th>
+<th style="text-align: right;">Skor 1 sampai 4</th>
+<th>Evidence Singkat</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td>Person dan Character</td>
+<td style="text-align: right;">3</td>
+<td>Pengalaman, constraint, dan persepsi person GSA dipetakan tanpa stereotipe.</td>
 </tr>
 <tr class="even">
-<td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td>Objective dan State</td>
+<td style="text-align: right;">4</td>
+<td>Asumsi awal diperbarui secara eksplisit menjadi problem statement yang dikonfirmasi interviewee.</td>
 </tr>
 <tr class="odd">
-<td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td>Repertoire, Language dan AI</td>
+<td style="text-align: right;">3</td>
+<td>Open question, paraphrase, confirmation digunakan, AI hanya untuk labeling dan diperiksa ulang.</td>
 </tr>
 <tr class="even">
-<td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td>Response dan Adaptation</td>
+<td style="text-align: right;">4</td>
+<td>Respons tentang jarang bahas akademis dan KPI referral membuat saya menahan solusi dan mengubah framing menjadi komplementer.</td>
 </tr>
 <tr class="odd">
-<td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td>Agreement, Action dan Relationship</td>
+<td style="text-align: right;">2</td>
+<td>Problem statement dikonfirmasi, namun belum ada pesan tertulis terpisah sebagai bukti konfirmasi formal dan next interview belum terjadwal.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
+<p><strong>Total: 16/20</strong></p>
 <section id="assessment-dosen" class="level3 assessor-only">
-<h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
-<p><strong>Skor:</strong> — / 20<br>
-<strong>Evidence yang mendukung:</strong> —<br>
-<strong>Prioritas perbaikan:</strong> —<br>
+<h3 class="anchored" data-anchor-id="assessment-dosen">Assessment Dosen</h3>
+<p><strong>Skor:</strong> - / 20<br>
+<strong>Evidence yang mendukung:</strong> -<br>
+<strong>Prioritas perbaikan:</strong> -<br>
 <strong>Keputusan:</strong> Belum dinilai / Perlu revisi / Tercapai</p>
 </section>
 
@@ -858,7 +913,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Portfolio KIPP-2 · Nama Mahasiswa</p>
+<p>Portfolio KIPP-2 · Muhammad Orkhan</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
