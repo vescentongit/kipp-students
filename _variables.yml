@@ -1,16 +1,16 @@
 student:
-  name: "Nama Mahasiswa"
-  id: "NIM"
-  program: "Program Studi"
-  cohort: "Angkatan"
-  email: "nama@kampus.ac.id"
+  name: "Muhammad Orkhan"
+  id: "18225091"
+  program: "Sistem dan Teknologi Informasi"
+  cohort: "2025"
+  email: "18225091@std.stei.itb.ac.id"
 
 course:
-  code: "KIPP-2"
-  name: "Komunikasi Inter Personal dan Publik"
-  lecturer: "Armein Z. R. Langi"
-  semester: "Semester / Tahun Akademik"
+  code: "II2100"
+  name: "Komunikasi Interpersonal dan Publik"
+  lecturer: "Prof. Ir. Armein Z.R. Langi, M.Sc., Ph.D."
+  semester: "Semester 3"
 
 repository:
-  url: "https://github.com/USERNAME/NAMA-REPOSITORY"
+  url: "https://github.com/vescentongit/kipp-students"
 

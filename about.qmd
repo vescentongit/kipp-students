@@ -16,9 +16,7 @@ toc: false
 
 ## Pernyataan portfolio
 
-Tuliskan tujuan belajar pribadi Anda untuk semester ini.
-
-> Ganti teks ini dengan pernyataan singkat tentang kompetensi komunikasi yang ingin Anda bangun dan alasan mengapa kompetensi tersebut penting.
+> Tujuan pribadi saya pada mata kuliah **II2100 Komunikasi Interpersonal dan Publik** adalah untuk meningkatkan skill komunikasi agar dapat menyampaikan isi pikiran dengan lebih baik — lebih jelas, terstruktur, dan empatik. Saya ingin belajar memilih *character* dan *language* yang tepat sesuai konteks (teman, tim, maupun audiens publik), mengelola pesan agar mudah dipahami, serta membangun relasi yang produktif melalui komunikasi yang person-centered. Kompetensi ini penting bagi saya sebagai mahasiswa Sistem dan Teknologi Informasi yang akan sering bekerja lintas disiplin, mempresentasikan ide teknis kepada audiens non-teknis, dan berkolaborasi dalam tim.
 
 ## Aturan evidence
 
