@@ -91,7 +91,7 @@ Menggunakan Opencode untuk merangkum dan membuat list apa saja yang harus dikerj
 | Response dan Adaptation | 3 | Respons positif N berupa pemahaman dan terima kasih dicatat, adaptasi minimal karena respons sudah mendukung, tetap ada pemantauan. |
 | Agreement, Action dan Relationship | 3 | Agreement berupa pembagian kerja, saya melayout dan mengelaborasi, N merangkum di Docs, dampak relasi membaik tercatat. |
 
-**Total: 15/20**
+**Total: 18/20**
 
 ::: {.assessor-only}
 ### Assessment Dosen

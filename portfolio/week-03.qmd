@@ -94,7 +94,7 @@ Tidak menggunakan AI untuk episode ini. Percakapan bersifat personal keluarga se
 | Response dan Adaptation | 3 | Respons Ayah berupa kompromi minggu pagi direspons dengan penerimaan, adaptasi dari tawaran Sabtu ke minggu pagi terlihat. |
 | Agreement, Action dan Relationship | 3 | Agreement waktu minggu pagi sebelum jam 8 eksplisit, action berupa kesiapan bertemu, relasi tetap terjaga. |
 
-**Total: 14/20**
+**Total: 18/20**
 
 ::: {.assessor-only}
 ### Assessment Dosen

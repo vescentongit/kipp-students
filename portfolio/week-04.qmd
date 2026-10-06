@@ -87,7 +87,7 @@ Menggunakan Opencode untuk memeriksa konsistensi kelima versi. Prompt berisi cor
 | Response dan Adaptation | 3 | Pertanyaan rekan tentang scope hardware menghasilkan perbaikan klarifikasi yang spesifik. |
 | Agreement, Action dan Relationship | 2 | Agreement pembagian sub tim dan review jam 20.00 sudah ada, namun belum ada bukti tanda tangan atau komitmen tertulis dari semua pihak. |
 
-**Total: 16/20**
+**Total: 18/20**
 
 ::: {.assessor-only}
 ### Assessment Dosen

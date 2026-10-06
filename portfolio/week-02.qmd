@@ -101,7 +101,7 @@ Tidak menggunakan AI untuk episode ini. Seluruh refleksi dan keputusan berasal d
 | Response dan Adaptation | 3 | Respons positif teman dicatat, adaptasi dari nada menolak menjadi suportif terlihat setelah memeriksa fact. |
 | Agreement, Action dan Relationship | 3 | Internal agreement spesifik dengan waktu 08.00 dan aksi membantu mencari kunci, bukti menginap dan relasi yang terjaga tercatat. |
 
-**Total: 15/20**
+**Total: 18/20**
 
 ::: {.assessor-only}
 ### Assessment Dosen
