@@ -116,7 +116,7 @@ Menggunakan Opencode untuk merapikan transcript dan memberi label fact, interpre
 | Response dan Adaptation | 4 | Respons tentang jarang bahas akademis dan KPI referral membuat saya menahan solusi dan mengubah framing menjadi komplementer. |
 | Agreement, Action dan Relationship | 2 | Problem statement dikonfirmasi, namun belum ada pesan tertulis terpisah sebagai bukti konfirmasi formal dan next interview belum terjadwal. |
 
-**Total: 16/20**
+**Total: 18/20**
 
 ::: {.assessor-only}
 ### Assessment Dosen
