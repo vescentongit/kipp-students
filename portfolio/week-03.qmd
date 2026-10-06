@@ -2,7 +2,7 @@
 title: "Relationship Conversation"
 week: 3
 status: "Siap dinilai"
-self_score: "14/20"
+self_score: "18/20"
 assessor_score: "-"
 description: "Evidence listening, boundary, request, atau repair."
 categories: [Fondasi, Relationship]

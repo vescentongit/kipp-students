@@ -2,7 +2,7 @@
 title: "Intra-Self Communication Journal"
 week: 2
 status: "Siap dinilai"
-self_score: "15/20"
+self_score: "18/20"
 assessor_score: "-"
 description: "Evidence perubahan dari reaction menuju response."
 categories: [Fondasi, Intra-Self]
