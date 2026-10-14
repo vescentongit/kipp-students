@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="id" xml:lang="id"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Lembar Kerja Bab 12 – Portfolio KIPP-2</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-2a61bbc0ff3c198ff8cae7546d044fc5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Tidak ada hasil",
+    "search-matching-documents-text": "dokumen cocok",
+    "search-copy-link-title": "Salin tautan untuk mencari",
+    "search-hide-matches-text": "Sembunyikan kecocokan lainnya",
+    "search-more-match-text": "kecocokan lainnya di dokumen ini",
+    "search-more-matches-text": "kecocokan lainnya di dokumen ini",
+    "search-clear-button-title": "Hapus",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Batal",
+    "search-submit-button-title": "Kirim",
+    "search-label": "Mencari"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/logo.png" alt="" class="navbar-logo light-content">
+    <img src="../assets/logo.png" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Portfolio KIPP-2</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Mencari"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alihkan navigasi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Beranda</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../course/index.html"> 
+<span class="menu-text">Perkuliahan</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../portfolio/index.html"> 
+<span class="menu-text">Portfolio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../examples/index.html"> 
+<span class="menu-text">Contoh</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../lk/index.html"> 
+<span class="menu-text">Lembar Kerja</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../slides.html"> 
+<span class="menu-text">Slide</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../slides-pdf/index.html"> 
+<span class="menu-text">Slide PDF</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../assessment/index.html"> 
+<span class="menu-text">Assessment</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">Profil</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Di halaman ini</h2>
+   
+  <ul>
+  <li><a href="#lembar-kerja-praktis-deliberasi-komunitas" id="toc-lembar-kerja-praktis-deliberasi-komunitas" class="nav-link active" data-scroll-target="#lembar-kerja-praktis-deliberasi-komunitas">LEMBAR KERJA PRAKTIS: DELIBERASI KOMUNITAS</a>
+  <ul class="collapse">
+  <li><a href="#bab-12-tetangga-dan-komunitas-bertindak-bersama-di-tengah-perbedaan" id="toc-bab-12-tetangga-dan-komunitas-bertindak-bersama-di-tengah-perbedaan" class="nav-link" data-scroll-target="#bab-12-tetangga-dan-komunitas-bertindak-bersama-di-tengah-perbedaan">Bab 12: Tetangga dan Komunitas: Bertindak Bersama di Tengah Perbedaan</a></li>
+  <li><a href="#pengantar-ilusi-keseragaman-vs.-modal-sosial" id="toc-pengantar-ilusi-keseragaman-vs.-modal-sosial" class="nav-link" data-scroll-target="#pengantar-ilusi-keseragaman-vs.-modal-sosial">PENGANTAR: ILUSI KESERAGAMAN VS. MODAL SOSIAL</a></li>
+  <li><a href="#identitas-kelompok" id="toc-identitas-kelompok" class="nav-link" data-scroll-target="#identitas-kelompok">IDENTITAS KELOMPOK</a></li>
+  <li><a href="#fase-1-membedakan-lapisan-perbedaan-fakta-interpretasi-nilai" id="toc-fase-1-membedakan-lapisan-perbedaan-fakta-interpretasi-nilai" class="nav-link" data-scroll-target="#fase-1-membedakan-lapisan-perbedaan-fakta-interpretasi-nilai">FASE 1: MEMBEDAKAN LAPISAN PERBEDAAN (FAKTA, INTERPRETASI, NILAI)</a></li>
+  <li><a href="#fase-2-detoks-bingkai-masalah-reframing" id="toc-fase-2-detoks-bingkai-masalah-reframing" class="nav-link" data-scroll-target="#fase-2-detoks-bingkai-masalah-reframing">FASE 2: DETOKS BINGKAI MASALAH (REFRAMING)</a>
+  <ul class="collapse">
+  <li><a href="#latihan-reframing-mandiri" id="toc-latihan-reframing-mandiri" class="nav-link" data-scroll-target="#latihan-reframing-mandiri"><strong>Latihan Reframing Mandiri:</strong></a></li>
+  <li><a href="#draf-bingkai-masalah-bersama-kelompok-anda" id="toc-draf-bingkai-masalah-bersama-kelompok-anda" class="nav-link" data-scroll-target="#draf-bingkai-masalah-bersama-kelompok-anda"><strong>Draf Bingkai Masalah Bersama Kelompok Anda:</strong></a></li>
+  </ul></li>
+  <li><a href="#fase-3-panduan-deliberasi-fasilitator-mengelola-proses-secara-etis" id="toc-fase-3-panduan-deliberasi-fasilitator-mengelola-proses-secara-etis" class="nav-link" data-scroll-target="#fase-3-panduan-deliberasi-fasilitator-mengelola-proses-secara-etis">FASE 3: PANDUAN DELIBERASI FASILITATOR (MENGELOLA PROSES SECARA ETIS)</a>
+  <ul class="collapse">
+  <li><a href="#catatan-observasi-jalannya-deliberasi-diisi-oleh-fasilitator" id="toc-catatan-observasi-jalannya-deliberasi-diisi-oleh-fasilitator" class="nav-link" data-scroll-target="#catatan-observasi-jalannya-deliberasi-diisi-oleh-fasilitator"><strong>Catatan Observasi Jalannya Deliberasi (Diisi oleh Fasilitator):</strong></a></li>
+  </ul></li>
+  <li><a href="#fase-4-merancang-kesepakatan-pilot-pilot-agreement-untuk-belajar" id="toc-fase-4-merancang-kesepakatan-pilot-pilot-agreement-untuk-belajar" class="nav-link" data-scroll-target="#fase-4-merancang-kesepakatan-pilot-pilot-agreement-untuk-belajar">FASE 4: MERANCANG KESEPAKATAN PILOT (PILOT AGREEMENT) UNTUK BELAJAR</a>
+  <ul class="collapse">
+  <li><a href="#formulir-desain-kesepakatan-pilot-komunitas" id="toc-formulir-desain-kesepakatan-pilot-komunitas" class="nav-link" data-scroll-target="#formulir-desain-kesepakatan-pilot-komunitas"><strong>Formulir Desain Kesepakatan Pilot Komunitas:</strong></a></li>
+  </ul></li>
+  <li><a href="#fase-5-evaluasi-jalur-ganda-dual-track-evaluation" id="toc-fase-5-evaluasi-jalur-ganda-dual-track-evaluation" class="nav-link" data-scroll-target="#fase-5-evaluasi-jalur-ganda-dual-track-evaluation">FASE 5: EVALUASI JALUR GANDA (DUAL-TRACK EVALUATION)</a>
+  <ul class="collapse">
+  <li><a href="#jalur-tugas-task-outcome-skor-mandiri-1---5" id="toc-jalur-tugas-task-outcome-skor-mandiri-1---5" class="nav-link" data-scroll-target="#jalur-tugas-task-outcome-skor-mandiri-1---5"><strong>1. JALUR TUGAS (Task Outcome): Skor Mandiri (1 - 5)</strong></a></li>
+  <li><a href="#jalur-relasi-relationship-outcome-skor-mandiri-1---5" id="toc-jalur-relasi-relationship-outcome-skor-mandiri-1---5" class="nav-link" data-scroll-target="#jalur-relasi-relationship-outcome-skor-mandiri-1---5"><strong>2. JALUR RELASI (Relationship Outcome): Skor Mandiri (1 - 5)</strong></a></li>
+  <li><a href="#pernyataan-penggunaan-ai-secara-bertanggung-jawab-ai-transparency-statement" id="toc-pernyataan-penggunaan-ai-secara-bertanggung-jawab-ai-transparency-statement" class="nav-link" data-scroll-target="#pernyataan-penggunaan-ai-secara-bertanggung-jawab-ai-transparency-statement"><strong>Pernyataan Penggunaan AI secara Bertanggung Jawab (AI Transparency Statement)</strong></a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lembar Kerja Bab 12</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="lembar-kerja-praktis-deliberasi-komunitas" class="level1">
+<h1>LEMBAR KERJA PRAKTIS: DELIBERASI KOMUNITAS</h1>
+<section id="bab-12-tetangga-dan-komunitas-bertindak-bersama-di-tengah-perbedaan" class="level2">
+<h2 class="anchored" data-anchor-id="bab-12-tetangga-dan-komunitas-bertindak-bersama-di-tengah-perbedaan">Bab 12: Tetangga dan Komunitas: Bertindak Bersama di Tengah Perbedaan</h2>
+<p>Mata Kuliah: Komunikasi Interpersonal dan Publik: Membangun Relasi di Era AI</p>
+<hr>
+</section>
+<section id="pengantar-ilusi-keseragaman-vs.-modal-sosial" class="level2">
+<h2 class="anchored" data-anchor-id="pengantar-ilusi-keseragaman-vs.-modal-sosial">PENGANTAR: ILUSI KESERAGAMAN VS. MODAL SOSIAL</h2>
+<p>Dalam kehidupan komunitas, kita sering kali terjebak dalam ilusi bahwa untuk bekerja sama, semua orang harus memiliki keyakinan batin, nilai, atau pendapat yang sama. Ketika perbedaan tajam muncul, rapat warga atau komunitas sering kali berubah menjadi arena <strong>Debat</strong> (saling menyerang posisi untuk mencari pemenang) yang merusak <strong>Modal Sosial</strong>—yaitu jaringan kepercayaan, rasa hormat, dan norma timbal balik yang menjadi perekat utama komunitas.</p>
+<p>Lembar kerja ini dirancang untuk melatih peran Anda sebagai <strong>Fasilitator</strong> atau <strong>Penggerak Komunitas</strong> yang mampu memandu proses <strong>Deliberasi</strong>—sebuah proses komunikasi yang berpusat pada manusia untuk memahami perspektif batin yang berbeda, memindahkan fokus dari konflik posisi ke penyelarasan kepentingan, dan menyepakati tindakan bersama yang konkret serta adil.</p>
+<hr>
+</section>
+<section id="identitas-kelompok" class="level2">
+<h2 class="anchored" data-anchor-id="identitas-kelompok">IDENTITAS KELOMPOK</h2>
+<ul>
+<li><strong>Kasus/Isu Komunitas:</strong> __________________________________________________</li>
+<li><strong>Nama Anggota Kelompok (Peran):</strong>
+<ol type="1">
+<li>___________________________________ (Fasilitator)</li>
+<li>___________________________________ (Peran Pemangku Kepentingan A: ______________)</li>
+<li>___________________________________ (Peran Pemangku Kepentingan B: ______________)</li>
+<li>___________________________________ (Peran Pemangku Kepentingan C: ______________)</li>
+<li>___________________________________ (Peran Pemangku Kepentingan D: ______________)</li>
+</ol></li>
+</ul>
+<hr>
+</section>
+<section id="fase-1-membedakan-lapisan-perbedaan-fakta-interpretasi-nilai" class="level2">
+<h2 class="anchored" data-anchor-id="fase-1-membedakan-lapisan-perbedaan-fakta-interpretasi-nilai">FASE 1: MEMBEDAKAN LAPISAN PERBEDAAN (FAKTA, INTERPRETASI, NILAI)</h2>
+<p>Sebelum memulai diskusi kelompok, petakan batin dan latar belakang masing-masing pemangku kepentingan secara objektif. Ingat, konflik sering kali terjadi bukan karena perbedaan fakta, melainkan karena perbedaan interpretasi dan nilai-nilai hidup yang dijunjung tinggi.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Pemangku Kepentingan</th>
+<th style="text-align: left;">Posisi Kaku (Tuntutan Eksplisit)</th>
+<th style="text-align: left;">Fakta Objektif (Apa yang benar-benar terjadi/terlihat)</th>
+<th style="text-align: left;">Interpretasi Subjektif (Apa narasi/asumsi batin mereka)</th>
+<th style="text-align: left;">Nilai Hidup / Kebutuhan Dasar (Mengapa hal ini penting bagi mereka)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Pihak A:</strong><br><em>(Contoh: Warga Lansia)</em></td>
+<td style="text-align: left;"><em>“Taman harus ditutup total setelah jam 9 malam!”</em></td>
+<td style="text-align: left;">Taman menjadi tempat berkumpul anak muda hingga pukul 11 malam.</td>
+<td style="text-align: left;"><em>“Anak muda zaman sekarang tidak punya sopan santun dan merusak ketertiban.”</em></td>
+<td style="text-align: left;">Ketenangan istirahat, kesehatan fisik, rasa aman di hari tua.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Pihak B:</strong><br><em>(Contoh: Remaja/Anak Muda)</em></td>
+<td style="text-align: left;"><em>“Jangan batasi jam taman, kami butuh ruang berkumpul!”</em></td>
+<td style="text-align: left;">Tidak ada ruang publik alternatif selain taman tersebut yang gratis.</td>
+<td style="text-align: left;"><em>“Orang tua terlalu kaku dan selalu mencurigai aktivitas anak muda.”</em></td>
+<td style="text-align: left;">Ruang ekspresi diri, koneksi sosial, kebebasan berekreasi.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Pihak C:</strong><br><em>(Contoh: Pedagang Kecil)</em></td>
+<td style="text-align: left;"><em>“Kami bebas berjualan kapan saja di area dalam taman.”</em></td>
+<td style="text-align: left;">Pendapatan harian dari pengunjung taman menyokong kebutuhan pokok keluarga.</td>
+<td style="text-align: left;"><em>“Jika dilarang, mereka ingin mematikan mata pencaharian rakyat kecil.”</em></td>
+<td style="text-align: left;">Kelangsungan hidup ekonomi keluarga, kemandirian finansial.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Pihak D:</strong><br><em>(Contoh: Pengelola Taman)</em></td>
+<td style="text-align: left;"><em>“Kami tidak bertanggung jawab atas ketertiban malam hari.”</em></td>
+<td style="text-align: left;">Anggaran pemeliharaan terbatas, tidak ada petugas keamanan malam.</td>
+<td style="text-align: left;"><em>“Warga terlalu banyak menuntut tanpa mau berkontribusi menjaga taman.”</em></td>
+<td style="text-align: left;">Efisiensi operasional, kepatuhan aturan, keterbatasan sumber daya.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="fase-2-detoks-bingkai-masalah-reframing" class="level2">
+<h2 class="anchored" data-anchor-id="fase-2-detoks-bingkai-masalah-reframing">FASE 2: DETOKS BINGKAI MASALAH (REFRAMING)</h2>
+<p>“Bingkai Serangan” (<em>Attack Frame</em>) biasanya berpusat pada menyalahkan orang lain atau memaksakan satu posisi sepihak. Tugas Anda sebagai komunikator adalah melakukan <strong>Reframing</strong> untuk mengubahnya menjadi “Bingkai Masalah Bersama” (<em>Collaborative Frame</em>) yang netral dan dapat dipecahkan bersama tanpa mengorbankan martabat pihak mana pun.</p>
+<section id="latihan-reframing-mandiri" class="level3">
+<h3 class="anchored" data-anchor-id="latihan-reframing-mandiri"><strong>Latihan Reframing Mandiri:</strong></h3>
+<ol type="1">
+<li><strong>Bingkai Serangan Awal:</strong> <em>“Pedagang kaki lima liar itu mengotori lingkungan taman dan membuat lansia tidak nyaman!”</em>
+<ul>
+<li><strong>Reframing Kolaboratif:</strong> <em>“Bagaimana kita bisa menjaga kebersihan dan ketenangan lingkungan taman untuk warga, sekaligus memastikan pedagang memiliki ruang yang layak untuk mencari nafkah?”</em></li>
+</ul></li>
+<li><strong>Bingkai Serangan Awal:</strong> <em>“Anak-anak muda berisik itu merusak fasilitas taman dan mengganggu jam tidur malam!”</em>
+<ul>
+<li><strong>Reframing Kolaboratif:</strong> <em>“Bagaimana kita bisa menyediakan ruang ekspresi malam yang aman bagi anak muda, tanpa mengorbankan hak istirahat dan ketenangan malam warga sekitar?”</em></li>
+</ul></li>
+</ol>
+</section>
+<section id="draf-bingkai-masalah-bersama-kelompok-anda" class="level3">
+<h3 class="anchored" data-anchor-id="draf-bingkai-masalah-bersama-kelompok-anda"><strong>Draf Bingkai Masalah Bersama Kelompok Anda:</strong></h3>
+<p>Sempurnakan kalimat masalah bersama yang akan didebatkan dalam sesi deliberasi kelompok Anda: &gt; <em>“Bagaimana kita bisa…”</em> &gt; __________________________________________________________________________________________ &gt; __________________________________________________________________________________________</p>
+<hr>
+</section>
+</section>
+<section id="fase-3-panduan-deliberasi-fasilitator-mengelola-proses-secara-etis" class="level2">
+<h2 class="anchored" data-anchor-id="fase-3-panduan-deliberasi-fasilitator-mengelola-proses-secara-etis">FASE 3: PANDUAN DELIBERASI FASILITATOR (MENGELOLA PROSES SECARA ETIS)</h2>
+<p>Fasilitator memiliki tanggung jawab mutlak untuk menjaga keadilan proses komunikasi. Gunakan panduan taktis berikut selama memandu deliberasi 20 menit:</p>
+<ol type="1">
+<li><strong>Ingat Aturan Emas:</strong> Kehadiran fisik tidak sama dengan partisipasi, dan keheningan seseorang sama sekali bukan tanda persetujuan.</li>
+<li><strong>Intervensi Suara Sunyi:</strong> Jika ada pihak yang mendominasi dan pihak lain terdiam, ajukan pertanyaan penyelidikan yang aman:
+<ul>
+<li><em>“Pak/Ibu [Nama Pihak yang Diam], kami ingin mendengar pandangan Anda dari sudut pandang peran Anda. Apa yang paling Anda khawatirkan jika opsi ini dijalankan?”</em></li>
+</ul></li>
+<li><strong>Parafrasa Netral:</strong> Ketika perdebatan mulai memanas, terjemahkan kalimat emosional menjadi kebutuhan dasar:
+<ul>
+<li><em>“Saya mendengar bahwa yang Anda butuhkan sebenarnya adalah rasa aman terhadap pendapatan keluarga Anda, benarkah demikian?”</em></li>
+</ul></li>
+</ol>
+<section id="catatan-observasi-jalannya-deliberasi-diisi-oleh-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="catatan-observasi-jalannya-deliberasi-diisi-oleh-fasilitator"><strong>Catatan Observasi Jalannya Deliberasi (Diisi oleh Fasilitator):</strong></h3>
+<ul>
+<li><em>Siapa pemangku kepentingan yang paling dominan di awal?</em> ___________________________________</li>
+<li><em>Siapa pemangku kepentingan yang paling pasif/diam?</em> _______________________________________</li>
+<li><em>Bagaimana cara Anda memunculkan suara yang sunyi tersebut?</em> __________________________________________________________________________________________ __________________________________________________________________________________________</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="fase-4-merancang-kesepakatan-pilot-pilot-agreement-untuk-belajar" class="level2">
+<h2 class="anchored" data-anchor-id="fase-4-merancang-kesepakatan-pilot-pilot-agreement-untuk-belajar">FASE 4: MERANCANG KESEPAKATAN PILOT (PILOT AGREEMENT) UNTUK BELAJAR</h2>
+<p>Ketika para pemangku kepentingan memiliki kekhawatiran dan prediksi risiko yang bertolak belakang, jangan paksa mereka menyetujui kebijakan permanen yang menakutkan. Rancanglah sebuah <strong>Pilot Project</strong>—sebuah kesepakatan jangka pendek yang terukur sebagai wadah untuk belajar bersama di lapangan.</p>
+<section id="formulir-desain-kesepakatan-pilot-komunitas" class="level3">
+<h3 class="anchored" data-anchor-id="formulir-desain-kesepakatan-pilot-komunitas"><strong>Formulir Desain Kesepakatan Pilot Komunitas:</strong></h3>
+<ol type="1">
+<li><strong>Nama Program Uji Coba (Pilot):</strong> __________________________________________________________________________________________</li>
+<li><strong>Durasi Eksperimen (Maksimal 2-4 minggu):</strong>
+<ul>
+<li>Tanggal Mulai: _______________ s/d Tanggal Selesai: _______________</li>
+</ul></li>
+<li><strong>Tindakan Nyata dan Pembagian Tanggung Jawab (Formula Presisi):</strong>
+<ul>
+<li><strong>Siapa</strong> melakukan <strong>Apa</strong>, <strong>Kapan</strong>, dan apa <strong>Definisi Selesai</strong>-nya?</li>
+</ul></li>
+</ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Peran/Pihak</th>
+<th style="text-align: left;">Tindakan Nyata yang Disepakati</th>
+<th style="text-align: left;">Tenggat Waktu</th>
+<th style="text-align: left;">Definisi Selesai &amp; Indikator Keberhasilan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Pihak A:</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Pihak B:</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Pihak C:</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Pihak D:</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<ol start="4" type="1">
+<li><strong>Perlindungan Risiko (Batas Toleransi Dampak Buruk):</strong>
+<ul>
+<li><em>Apa risiko terbesar yang dikhawatirkan warga selama uji coba ini?</em> ______________________________________________________________________________________</li>
+<li><em>Apa tindakan darurat (tombol darurat) jika batas toleransi risiko tersebut terlewati di tengah jalan?</em> ______________________________________________________________________________________</li>
+</ul></li>
+<li><strong>Jadwal Evaluasi Bersama (Kapan semua pihak akan duduk kembali untuk meninjau data hasil uji coba?):</strong>
+<ul>
+<li>Hari/Tanggal: _______________________ Waktu &amp; Tempat: _______________________</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="fase-5-evaluasi-jalur-ganda-dual-track-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="fase-5-evaluasi-jalur-ganda-dual-track-evaluation">FASE 5: EVALUASI JALUR GANDA (DUAL-TRACK EVALUATION)</h2>
+<p>Keberhasilan pengelolaan komunitas diukur dari dua jalur secara seimbang. Isilah lembar evaluasi refleksi batin ini setelah sesi kesepakatan pilot selesai dirumuskan:</p>
+<section id="jalur-tugas-task-outcome-skor-mandiri-1---5" class="level3">
+<h3 class="anchored" data-anchor-id="jalur-tugas-task-outcome-skor-mandiri-1---5"><strong>1. JALUR TUGAS (Task Outcome): Skor Mandiri (1 - 5)</strong></h3>
+<p>Apakah kesepakatan pilot yang dirancang realistis, terukur, adil, dan mampu mengatasi akar masalah bersama? * [ ] <strong>Skor: ___ / 5</strong> * <em>Justifikasi Bukti:</em> ________________________________________________________________________</p>
+</section>
+<section id="jalur-relasi-relationship-outcome-skor-mandiri-1---5" class="level3">
+<h3 class="anchored" data-anchor-id="jalur-relasi-relationship-outcome-skor-mandiri-1---5"><strong>2. JALUR RELASI (Relationship Outcome): Skor Mandiri (1 - 5)</strong></h3>
+<p>Apakah selama proses negosiasi, rasa hormat, kenyamanan emosional, kebebasan memilih, dan martabat batin masing-masing pihak tetap terjaga dengan utuh? Apakah mereka siap bekerja sama kembali di masa depan? * [ ] <strong>Skor: ___ / 5</strong> * <em>Justifikasi Bukti:</em> ________________________________________________________________________</p>
+<hr>
+</section>
+<section id="pernyataan-penggunaan-ai-secara-bertanggung-jawab-ai-transparency-statement" class="level3">
+<h3 class="anchored" data-anchor-id="pernyataan-penggunaan-ai-secara-bertanggung-jawab-ai-transparency-statement"><strong>Pernyataan Penggunaan AI secara Bertanggung Jawab (AI Transparency Statement)</strong></h3>
+<p><em>Petunjuk: Jika Anda menggunakan bantuan AI (seperti chatbot) dalam menyusun kalimat reframing, menganalisis peran, atau menyusun draf kesepakatan ini, deklarasikan secara jujur di bawah ini.</em></p>
+<ul>
+<li><em>Apakah kelompok Anda menggunakan AI dalam persiapan lembar kerja ini?</em> <strong>[Ya / Tidak]</strong></li>
+<li><em>Jika Ya, apa peran AI dalam membantu kelompok Anda? (Contoh: Menyarankan alternatif kalimat reframing kolaboratif)</em> __________________________________________________________________________________________</li>
+<li><em>Bagian mana dari saran AI yang akhirnya Anda tolak atau sunting karena tidak sesuai dengan konteks kemanusiaan riil kelompok Anda?</em> __________________________________________________________________________________________</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Disalin!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Disalin!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/vescentongit\.github\.io\/kipp-students\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Portfolio KIPP-2 · Muhammad Orkhan</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Dibangun dengan Quarto</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="id" xml:lang="id"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Lembar Kerja Bab 11 – Portfolio KIPP-2</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-2a61bbc0ff3c198ff8cae7546d044fc5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Tidak ada hasil",
+    "search-matching-documents-text": "dokumen cocok",
+    "search-copy-link-title": "Salin tautan untuk mencari",
+    "search-hide-matches-text": "Sembunyikan kecocokan lainnya",
+    "search-more-match-text": "kecocokan lainnya di dokumen ini",
+    "search-more-matches-text": "kecocokan lainnya di dokumen ini",
+    "search-clear-button-title": "Hapus",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Batal",
+    "search-submit-button-title": "Kirim",
+    "search-label": "Mencari"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/logo.png" alt="" class="navbar-logo light-content">
+    <img src="../assets/logo.png" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Portfolio KIPP-2</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Mencari"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alihkan navigasi" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Beranda</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../course/index.html"> 
+<span class="menu-text">Perkuliahan</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../portfolio/index.html"> 
+<span class="menu-text">Portfolio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../examples/index.html"> 
+<span class="menu-text">Contoh</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../lk/index.html"> 
+<span class="menu-text">Lembar Kerja</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../slides.html"> 
+<span class="menu-text">Slide</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../slides-pdf/index.html"> 
+<span class="menu-text">Slide PDF</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../assessment/index.html"> 
+<span class="menu-text">Assessment</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">Profil</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Di halaman ini</h2>
+   
+  <ul>
+  <li><a href="#lembar-kerja-praktis-peta-pemangku-kepentingan-deliberasi-banyak-pihak" id="toc-lembar-kerja-praktis-peta-pemangku-kepentingan-deliberasi-banyak-pihak" class="nav-link active" data-scroll-target="#lembar-kerja-praktis-peta-pemangku-kepentingan-deliberasi-banyak-pihak">Lembar Kerja Praktis: Peta Pemangku Kepentingan &amp; Deliberasi Banyak Pihak</a>
+  <ul class="collapse">
+  <li><a href="#identitas-simulasi-kelompok" id="toc-identitas-simulasi-kelompok" class="nav-link" data-scroll-target="#identitas-simulasi-kelompok">👥 Identitas Simulasi &amp; Kelompok</a></li>
+  <li><a href="#esensi-pembelajaran-bab-11" id="toc-esensi-pembelajaran-bab-11" class="nav-link" data-scroll-target="#esensi-pembelajaran-bab-11">🎯 Esensi Pembelajaran Bab 11</a></li>
+  <li><a href="#bagian-1-memetakan-jaring-pemangku-kepentingan-stakeholder-mapping" id="toc-bagian-1-memetakan-jaring-pemangku-kepentingan-stakeholder-mapping" class="nav-link" data-scroll-target="#bagian-1-memetakan-jaring-pemangku-kepentingan-stakeholder-mapping">📌 BAGIAN 1: Memetakan Jaring Pemangku Kepentingan (Stakeholder Mapping)</a>
+  <ul class="collapse">
+  <li><a href="#matriks-peta-pemangku-kepentingan" id="toc-matriks-peta-pemangku-kepentingan" class="nav-link" data-scroll-target="#matriks-peta-pemangku-kepentingan"><strong>Matriks Peta Pemangku Kepentingan</strong></a></li>
+  </ul></li>
+  <li><a href="#bagian-2-proses-deliberasi-menggali-kepentingan-tersembunyi-the-hidden-agenda" id="toc-bagian-2-proses-deliberasi-menggali-kepentingan-tersembunyi-the-hidden-agenda" class="nav-link" data-scroll-target="#bagian-2-proses-deliberasi-menggali-kepentingan-tersembunyi-the-hidden-agenda">📌 BAGIAN 2: Proses Deliberasi — Menggali Kepentingan Tersembunyi (The Hidden Agenda)</a>
+  <ul class="collapse">
+  <li><a href="#daftar-pertanyaan-penyelidikan-fasilitator-saran-repertoar" id="toc-daftar-pertanyaan-penyelidikan-fasilitator-saran-repertoar" class="nav-link" data-scroll-target="#daftar-pertanyaan-penyelidikan-fasilitator-saran-repertoar"><strong>Daftar Pertanyaan Penyelidikan Fasilitator (Saran Repertoar):</strong></a></li>
+  <li><a href="#catatan-temuan-kepentingan-tersembunyi-diisi-oleh-fasilitator" id="toc-catatan-temuan-kepentingan-tersembunyi-diisi-oleh-fasilitator" class="nav-link" data-scroll-target="#catatan-temuan-kepentingan-tersembunyi-diisi-oleh-fasilitator"><strong>Catatan Temuan Kepentingan Tersembunyi (Diisi oleh Fasilitator):</strong></a></li>
+  </ul></li>
+  <li><a href="#bagian-3-menciptakan-pilihan-solusi-tanpa-menilai-brainstorming-sandbox" id="toc-bagian-3-menciptakan-pilihan-solusi-tanpa-menilai-brainstorming-sandbox" class="nav-link" data-scroll-target="#bagian-3-menciptakan-pilihan-solusi-tanpa-menilai-brainstorming-sandbox">📌 BAGIAN 3: Menciptakan Pilihan Solusi Tanpa Menilai (Brainstorming Sandbox)</a>
+  <ul class="collapse">
+  <li><a href="#kotak-pasir-ide-ideation-sandbox" id="toc-kotak-pasir-ide-ideation-sandbox" class="nav-link" data-scroll-target="#kotak-pasir-ide-ideation-sandbox"><strong>Kotak Pasir Ide (Ideation Sandbox)</strong></a></li>
+  </ul></li>
+  <li><a href="#bagian-4-perumusan-dokumen-kesepakatan-bersama" id="toc-bagian-4-perumusan-dokumen-kesepakatan-bersama" class="nav-link" data-scroll-target="#bagian-4-perumusan-dokumen-kesepakatan-bersama">📌 BAGIAN 4: Perumusan Dokumen Kesepakatan Bersama</a>
+  <ul class="collapse">
+  <li><a href="#matriks-komitmen-tindakan-nyata" id="toc-matriks-komitmen-tindakan-nyata" class="nav-link" data-scroll-target="#matriks-komitmen-tindakan-nyata"><strong>Matriks Komitmen Tindakan Nyata</strong></a></li>
+  </ul></li>
+  <li><a href="#bagian-5-evaluasi-jalur-ganda-dual-track-evaluation" id="toc-bagian-5-evaluasi-jalur-ganda-dual-track-evaluation" class="nav-link" data-scroll-target="#bagian-5-evaluasi-jalur-ganda-dual-track-evaluation">📌 BAGIAN 5: Evaluasi Jalur Ganda (Dual-Track Evaluation)</a>
+  <ul class="collapse">
+  <li><a href="#jalur-tugas-apakah-target-tindakan-tercapai-secara-efektif" id="toc-jalur-tugas-apakah-target-tindakan-tercapai-secara-efektif" class="nav-link" data-scroll-target="#jalur-tugas-apakah-target-tindakan-tercapai-secara-efektif"><strong>1. JALUR TUGAS (Apakah target tindakan tercapai secara efektif?)</strong></a></li>
+  <li><a href="#jalur-relasi-apakah-rasa-hormat-martabat-batin-dan-kerja-sama-terpelihara" id="toc-jalur-relasi-apakah-rasa-hormat-martabat-batin-dan-kerja-sama-terpelihara" class="nav-link" data-scroll-target="#jalur-relasi-apakah-rasa-hormat-martabat-batin-dan-kerja-sama-terpelihara"><strong>2. JALUR RELASI (Apakah rasa hormat, martabat batin, dan kerja sama terpelihara?)</strong></a></li>
+  </ul></li>
+  <li><a href="#lembar-refleksi-akhir-fasilitator-300-kata" id="toc-lembar-refleksi-akhir-fasilitator-300-kata" class="nav-link" data-scroll-target="#lembar-refleksi-akhir-fasilitator-300-kata">🖋️ Lembar Refleksi Akhir Fasilitator (300 kata)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lembar Kerja Bab 11</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="lembar-kerja-praktis-peta-pemangku-kepentingan-deliberasi-banyak-pihak" class="level1">
+<h1>Lembar Kerja Praktis: Peta Pemangku Kepentingan &amp; Deliberasi Banyak Pihak</h1>
+<p><em>Mata Kuliah: Komunikasi Interpersonal dan Publik: Membangun Relasi di Era AI</em> <em>Topik: Bab 11 — Negosiasi Banyak Pihak: Mencari Kesepakatan yang Dapat Diterima (Kuliah 11)</em></p>
+<hr>
+<section id="identitas-simulasi-kelompok" class="level2">
+<h2 class="anchored" data-anchor-id="identitas-simulasi-kelompok">👥 Identitas Simulasi &amp; Kelompok</h2>
+<ul>
+<li><strong>Nama Projek/Skenario Kasus:</strong> [Contoh: Modernisasi Sistem Layanan Kantin Kampus]</li>
+<li><strong>Nama Kelompok / Kelas:</strong> ________________________ / __________</li>
+<li><strong>Anggota Kelompok &amp; Peran yang Dimainkan:</strong>
+<ol type="1">
+<li>________________________ (Peran: Fasilitator / Moderator Meja Bundar)</li>
+<li>________________________ (Peran: Pemangku Kepentingan A - ________________________)</li>
+<li>________________________ (Peran: Pemangku Kepentingan B - ________________________)</li>
+<li>________________________ (Peran: Pemangku Kepentingan C - ________________________)</li>
+<li>________________________ (Peran: Pemangku Kepentingan D - ________________________)</li>
+<li>________________________ (Peran: Pemangku Kepentingan E - ________________________)</li>
+</ol></li>
+</ul>
+<hr>
+</section>
+<section id="esensi-pembelajaran-bab-11" class="level2">
+<h2 class="anchored" data-anchor-id="esensi-pembelajaran-bab-11">🎯 Esensi Pembelajaran Bab 11</h2>
+<p>Di dunia kerja nyata, keputusan besar tidak pernah terjadi dalam ruang hampa satu-lawan-satu. Anda akan berhadapan dengan <strong>jaring pemangku kepentingan (stakeholders)</strong> yang memiliki posisi, batasan wewenang, kendala, dan nilai batin yang saling bertabrakan.</p>
+<p>Lembar kerja ini dirancang untuk melatih kemampuan Anda dalam memimpin <strong>Deliberasi</strong>—sebuah proses komunikasi kolaboratif untuk mencari tindakan bersama secara jujur, bertanggung jawab, dan bermartabat, alih-alih melakukan debat kusir demi mencari siapa yang menang atau kalah.</p>
+<hr>
+</section>
+<section id="bagian-1-memetakan-jaring-pemangku-kepentingan-stakeholder-mapping" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-1-memetakan-jaring-pemangku-kepentingan-stakeholder-mapping">📌 BAGIAN 1: Memetakan Jaring Pemangku Kepentingan (Stakeholder Mapping)</h2>
+<p><em>Petunjuk: Sebelum memulai simulasi negosiasi lisan, setiap anggota kelompok yang memegang peran wajib mengisi kolom barisnya secara mandiri berdasarkan skenario peran masing-masing. Fasilitator bertugas memandu pengisian agar data awal terpetakan secara objektif.</em></p>
+<section id="matriks-peta-pemangku-kepentingan" class="level3">
+<h3 class="anchored" data-anchor-id="matriks-peta-pemangku-kepentingan"><strong>Matriks Peta Pemangku Kepentingan</strong></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Pemangku Kepentingan</th>
+<th style="text-align: left;">🛑 POSISI (Tuntutan Kaku/Solusi Sepihak yang Disuarakan)</th>
+<th style="text-align: left;">🔑 KEPENTINGAN (Kebutuhan Batin, Rasa Aman, atau Harapan Nyata)</th>
+<th style="text-align: left;">⚠️ KENDALA &amp; BATASAN (Wewenang, Anggaran, Waktu, Aturan)</th>
+<th style="text-align: left;">💎 NILAI (Mengapa masa depan ini berharga bagi perannya?)</th>
+<th style="text-align: left;">📈 Keadaan TAIDA Awal (T / A / I / D / A)*</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>A: Pengguna</strong> <em>(Contoh: Mahasiswa)</em></td>
+<td style="text-align: left;">“Semua pemesanan harus digital, cepat, dan ada diskon promo lewat aplikasi.”</td>
+<td style="text-align: left;">Kecepatan antrean pada jam makan siang; kepastian mendapatkan porsi makanan.</td>
+<td style="text-align: left;">Uang saku harian terbatas; kuota internet tidak stabil di area kantin bawah.</td>
+<td style="text-align: left;">Kepastian waktu agar tidak terlambat masuk kuliah berikutnya.</td>
+<td style="text-align: left;"><strong>Interest (I)</strong> <em>(Sangat tertarik solusi digital tapi belum berkomitmen)</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>B: Pelaksana</strong> <em>(Contoh: Pemilik Warung)</em></td>
+<td style="text-align: left;">“Tetap pakai sistem tunai biasa. Jangan pakai sistem baru yang bikin pusing.”</td>
+<td style="text-align: left;">Beban kerja harian tetap terkendali; tidak kehilangan pelanggan karena gaptek.</td>
+<td style="text-align: left;">Harus memasak sekaligus melayani kasir; modal harian harus cair tunai hari itu juga.</td>
+<td style="text-align: left;">Ketenangan kerja dan kelangsungan pendapatan harian warung.</td>
+<td style="text-align: left;"><strong>Attention (A)</strong> <em>(Sadar antrean adalah masalah, tapi skeptis pada solusi digital)</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>C: Tim Teknis</strong> <em>(Contoh: Developer Sistem)</em></td>
+<td style="text-align: left;">“Aplikasi harus rilis penuh minggu depan dengan database terpusat.”</td>
+<td style="text-align: left;">Sistem berjalan andal, tanpa bug, dan arsitektur data aman terkendali.</td>
+<td style="text-align: left;">Waktu pengembangan sangat mepet; keterbatasan server lokal kampus.</td>
+<td style="text-align: left;">Reputasi profesional dan keandalan sistem yang mereka rancang.</td>
+<td style="text-align: left;"><strong>Desire (D)</strong> <em>(Sangat ingin sistem segera dipakai penuh)</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>D: Pengelola</strong> <em>(Contoh: Manajemen Kampus)</em></td>
+<td style="text-align: left;">“Sistem baru wajib memotong biaya sewa kantin 5% sebagai retribusi.”</td>
+<td style="text-align: left;">Laporan keuangan kantin transparan dan akuntabel; ketertiban area kampus terjaga.</td>
+<td style="text-align: left;">Terikat aturan birokrasi kampus; harus menjaga stabilitas sosial kantin.</td>
+<td style="text-align: left;">Transparansi tata kelola dan reputasi kampus yang modern.</td>
+<td style="text-align: left;"><strong>Attention (A)</strong> <em>(Sadar perlunya efisiensi, tapi hati-hati pada gejolak sosial)</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>E: Pihak Terdampak</strong> <em>(Contoh: Kasir Manual)</em></td>
+<td style="text-align: left;">“Batalkan sistem otomatisasi pemesanan.”</td>
+<td style="text-align: left;">Keamanan pekerjaan; rasa dihargai oleh lingkungan tempat bekerja selama bertahun-tahun.</td>
+<td style="text-align: left;">Kurang memiliki keahlian teknis komputerisasi; usia produktif terbatas.</td>
+<td style="text-align: left;">Jaminan mata pencaharian untuk menghidupi keluarga.</td>
+<td style="text-align: left;"><strong>Target (T)</strong> <em>(Defensif; merasa terancam dan tidak dilibatkan sejak awal)</em></td>
+</tr>
+</tbody>
+</table>
+<p><em>*Keterangan Keadaan TAIDA Awal:</em> * <strong>Target (T):</strong> Belum tahu atau menolak berkomunikasi. * <strong>Attention (A):</strong> Sadar ada masalah tetapi belum tentu tertarik dengan solusi Anda. * <strong>Interest (I):</strong> Tertarik dengan gagasan solusi, tetapi belum melihat hubungan nyata dengan bebannya. * <strong>Desire (D):</strong> Sangat menginginkan masa depan yang ditawarkan, tetapi masih khawatir akan risiko/biaya. * <strong>Action (A):</strong> Sudah siap berkomitmen mengambil tindakan nyata bersama.</p>
+<hr>
+</section>
+</section>
+<section id="bagian-2-proses-deliberasi-menggali-kepentingan-tersembunyi-the-hidden-agenda" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-2-proses-deliberasi-menggali-kepentingan-tersembunyi-the-hidden-agenda">📌 BAGIAN 2: Proses Deliberasi — Menggali Kepentingan Tersembunyi (The Hidden Agenda)</h2>
+<p><em>Petunjuk: Fasilitator memimpin diskusi meja bundar selama 10 menit pertama. Fasilitator dilarang langsung menawarkan solusi kompromi. Fokus utama adalah menggunakan teknik mendengarkan tiga tingkat (Kata, Makna, Pribadi) untuk membedakan Posisi dari Kepentingan yang sebenarnya.</em></p>
+<section id="daftar-pertanyaan-penyelidikan-fasilitator-saran-repertoar" class="level3">
+<h3 class="anchored" data-anchor-id="daftar-pertanyaan-penyelidikan-fasilitator-saran-repertoar"><strong>Daftar Pertanyaan Penyelidikan Fasilitator (Saran Repertoar):</strong></h3>
+<ol type="1">
+<li><em>“Jika posisi atau tuntutan Anda [X] tidak sepenuhnya terpenuhi hari ini, perubahan buruk apa yang paling Anda khawatirkan akan terjadi pada pekerjaan/kehidupan Anda?”</em></li>
+<li><em>“Di balik tuntutan Anda untuk mempertahankan/mengubah sistem ini, apa kebutuhan terdalam yang ingin Anda amankan?”</em></li>
+<li><em>“Adakah kekhawatiran mengenai risiko, biaya, atau usaha ekstra yang belum sempat Anda suarakan kepada kami?”</em></li>
+</ol>
+</section>
+<section id="catatan-temuan-kepentingan-tersembunyi-diisi-oleh-fasilitator" class="level3">
+<h3 class="anchored" data-anchor-id="catatan-temuan-kepentingan-tersembunyi-diisi-oleh-fasilitator"><strong>Catatan Temuan Kepentingan Tersembunyi (Diisi oleh Fasilitator):</strong></h3>
+<ul>
+<li><strong>Temuan pada Pemilik Warung:</strong> Keberatan mereka bukan pada digitalisasinya, melainkan ketakutan jika uang hasil penjualan ditahan sistem selama berminggu-minggu, padahal mereka butuh modal tunai setiap pagi untuk membeli bahan masakan segar di pasar.</li>
+<li><strong>Temuan pada Kasir Manual:</strong> Ketakutan batin terdalam mereka adalah di-PHK (kehilangan pekerjaan) akibat digantikan oleh mesin otomatis, bukan karena mereka menolak teknologi.</li>
+<li><strong>Temuan lainnya:</strong> __________________________________________________________________________________________ __________________________________________________________________________________________</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="bagian-3-menciptakan-pilihan-solusi-tanpa-menilai-brainstorming-sandbox" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-3-menciptakan-pilihan-solusi-tanpa-menilai-brainstorming-sandbox">📌 BAGIAN 3: Menciptakan Pilihan Solusi Tanpa Menilai (Brainstorming Sandbox)</h2>
+<p><em>Petunjuk: Di tahap ini, seluruh anggota kelompok dilarang keras mengkritik, memotong, atau menilai kelayakan ide yang masuk. Tuliskan sebanyak mungkin alternatif solusi kreatif yang mampu mempertemukan kepentingan-kepentingan yang tampaknya bertolak belakang di atas.</em></p>
+<section id="kotak-pasir-ide-ideation-sandbox" class="level3">
+<h3 class="anchored" data-anchor-id="kotak-pasir-ide-ideation-sandbox"><strong>Kotak Pasir Ide (Ideation Sandbox)</strong></h3>
+<ul>
+<li><strong>Ide Alternatif 1 (Menjembatani Pemilik Warung &amp; Mahasiswa):</strong> Sistem pembayaran digital dikonfigurasi agar melakukan transfer otomatis (<em>auto-settlement</em>) langsung ke rekening pemilik warung setiap pukul 17.00 WIB, sehingga mereka tetap memiliki modal tunai untuk pasar esok pagi.</li>
+<li><strong>Ide Alternatif 2 (Menjembatani Kasir Manual &amp; Otomatisasi):</strong> Kasir manual tidak diberhentikan, melainkan dialihfungsikan menjadi <em>Duta Layanan Kantin</em> yang bertugas memandu mahasiswa senior atau tamu yang belum terbiasa menggunakan aplikasi mandiri, sekaligus mengelola titik bantuan fisik (<em>helpdesk</em>).</li>
+<li><strong>Ide Alternatif 3 (Menjembatani Developer &amp; Keterbatasan Server):</strong> Rilis sistem dilakukan secara bertahap (<em>phased roll-out</em>). Minggu pertama diuji coba hanya pada 2 warung makan terbesar, sembari tim teknis menstabilkan server sebelum diterapkan ke seluruh kantin kampus.</li>
+<li><strong>Ide Alternatif 4 (Tulis Ide Orisinal Kelompok Anda):</strong> __________________________________________________________________________________________ __________________________________________________________________________________________</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="bagian-4-perumusan-dokumen-kesepakatan-bersama" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-4-perumusan-dokumen-kesepakatan-bersama">📌 BAGIAN 4: Perumusan Dokumen Kesepakatan Bersama</h2>
+<p><em>Petunjuk: Setelah mengevaluasi kelayakan ide di Bagian 3, rumuskan kesepakatan tindakan nyata yang disetujui bersama oleh semua pihak. Ingat, kesepakatan tidak menuntut kesamaan pikiran, melainkan kesepakatan tindakan terkoordinasi yang adil dan dapat dipertanggungjawabkan.</em></p>
+<section id="matriks-komitmen-tindakan-nyata" class="level3">
+<h3 class="anchored" data-anchor-id="matriks-komitmen-tindakan-nyata"><strong>Matriks Komitmen Tindakan Nyata</strong></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">SIAPA (Penanggung Jawab Utama)</th>
+<th style="text-align: left;">MELAKUKAN APA (Tindakan Spesifik &amp; Jelas)</th>
+<th style="text-align: left;">KAPAN (Tenggat Waktu Konkret)</th>
+<th style="text-align: left;">PRASYARAT &amp; SYARAT (Sumber daya/kondisi yang harus ada)</th>
+<th style="text-align: left;">UKURAN SELESAI (Kapan tugas ini dinyatakan 100% tuntas?)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Pihak A (Mahasiswa)</strong></td>
+<td style="text-align: left;">Melakukan kampanye sosialisasi penggunaan aplikasi mandiri di kalangan mahasiswa.</td>
+<td style="text-align: left;">Minggu ke-12 s.d. Minggu ke-13</td>
+<td style="text-align: left;">Disediakan materi infografis siap sebar oleh tim teknis.</td>
+<td style="text-align: left;">80% mahasiswa aktif mengetahui tata cara memesan lewat aplikasi.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Pihak B (Pemilik Warung)</strong></td>
+<td style="text-align: left;">Memasang QR-Code pembayaran di meja saji dan mengikuti pelatihan operasional 1 jam.</td>
+<td style="text-align: left;">Hari Jumat, Minggu ke-12</td>
+<td style="text-align: left;">Didampingi oleh asisten mahasiswa saat transaksi pertama.</td>
+<td style="text-align: left;">Berhasil melayani 5 transaksi digital berturut-turut tanpa kendala.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Pihak C (Tim Teknis)</strong></td>
+<td style="text-align: left;">Mengonfigurasi modul transfer harian otomatis (<em>auto-disbursement</em>) pukul 17.00 WIB.</td>
+<td style="text-align: left;">Hari Rabu, Minggu ke-12</td>
+<td style="text-align: left;">Rekening bank seluruh pemilik warung telah terverifikasi.</td>
+<td style="text-align: left;">Transfer uji coba senilai Rp10.000 sukses mendarat di rekening semua warung.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Pihak D (Manajemen)</strong></td>
+<td style="text-align: left;">Menerbitkan surat keputusan pengalihan peran kasir manual menjadi Duta Layanan Kantin.</td>
+<td style="text-align: left;">Hari Senin, Minggu ke-12</td>
+<td style="text-align: left;">Draf peran baru telah disetujui oleh perwakilan staf kantin.</td>
+<td style="text-align: left;">Dokumen keputusan ditandatangani oleh Rektorat/Dekanat.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Pihak E (Staf/Kasir)</strong></td>
+<td style="text-align: left;">Mengikuti pelatihan kepanduan sistem dan mengelola meja bantuan fisik (<em>helpdesk</em>).</td>
+<td style="text-align: left;">Hari Sabtu, Minggu ke-12</td>
+<td style="text-align: left;">Disediakan modul panduan bergambar yang sederhana oleh tim teknis.</td>
+<td style="text-align: left;">Kasir siap bertugas di pos bantuan fisik sejak hari pertama peluncuran.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="bagian-5-evaluasi-jalur-ganda-dual-track-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="bagian-5-evaluasi-jalur-ganda-dual-track-evaluation">📌 BAGIAN 5: Evaluasi Jalur Ganda (Dual-Track Evaluation)</h2>
+<p><em>Petunjuk: Negosiasi yang bertanggung jawab dan ksatria diukur melalui dua jalur yang seimbang. Setiap anggota kelompok memberikan penilaian mandiri (Skala 1 - 5) setelah simulasi berakhir.</em></p>
+<section id="jalur-tugas-apakah-target-tindakan-tercapai-secara-efektif" class="level3">
+<h3 class="anchored" data-anchor-id="jalur-tugas-apakah-target-tindakan-tercapai-secara-efektif"><strong>1. JALUR TUGAS (Apakah target tindakan tercapai secara efektif?)</strong></h3>
+<ul>
+<li><strong>Skor Kelompok (1 s.d. 5):</strong> _____ / 5</li>
+<li><em>Bukti Nyata:</em> Apakah kesepakatan yang tertulis di Bagian 4 benar-benar operasional, realistis, dan menyelesaikan masalah nyata di lapangan secara objektif? Jelaskan buktinya: __________________________________________________________________________________________ __________________________________________________________________________________________</li>
+</ul>
+</section>
+<section id="jalur-relasi-apakah-rasa-hormat-martabat-batin-dan-kerja-sama-terpelihara" class="level3">
+<h3 class="anchored" data-anchor-id="jalur-relasi-apakah-rasa-hormat-martabat-batin-dan-kerja-sama-terpelihara"><strong>2. JALUR RELASI (Apakah rasa hormat, martabat batin, dan kerja sama terpelihara?)</strong></h3>
+<ul>
+<li><strong>Skor Kelompok (1 s.d. 5):</strong> _____ / 5</li>
+<li><em>Bukti Nyata:</em> Apakah ada pihak yang merasa terancam, terpaksa, atau dibungkam suaranya selama perundingan? Bagaimana fasilitator memastikan pihak yang paling sunyi tetap memiliki ruang aman untuk menyuarakan pendapat? Jelaskan buktinya: __________________________________________________________________________________________ __________________________________________________________________________________________</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="lembar-refleksi-akhir-fasilitator-300-kata" class="level2">
+<h2 class="anchored" data-anchor-id="lembar-refleksi-akhir-fasilitator-300-kata">🖋️ Lembar Refleksi Akhir Fasilitator (300 kata)</h2>
+<p><em>(Diisi secara mandiri oleh Fasilitator Kelompok setelah simulasi selesai)</em> &gt; <em>“Komunikasi profesional yang bertanggung jawab adalah komunikasi lingkar tertutup yang menghargai kebebasan memilih orang lain tanpa manipulasi. Refleksikan bagaimana Anda membaca kejutan di lapangan, menangkap makna nonverbal dari pihak-pihak yang defensif, serta bagaimana Anda mengelola ego kelompok agar tidak terjebak dalam perangkap debat kusir.”</em> &gt; &gt; <strong>Tuliskan refleksi Anda di bawah ini:</strong> &gt; __________________________________________________________________________________________ &gt; __________________________________________________________________________________________ &gt; __________________________________________________________________________________________ &gt; __________________________________________________________________________________________ &gt; __________________________________________________________________________________________ &gt; __________________________________________________________________________________________</p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Kembali ke atas</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Disalin!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Disalin!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/vescentongit\.github\.io\/kipp-students\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Portfolio KIPP-2 · Muhammad Orkhan</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Dibangun dengan Quarto</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
